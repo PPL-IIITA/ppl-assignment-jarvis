@@ -4,6 +4,4 @@ public class Girls {
 	int intelligence;
 	int budget;
 	String status;
-	
-	
 };
