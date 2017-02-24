@@ -8,7 +8,7 @@ public class boys {
 		int i;
 		i=0;
 		boys b[] = new boys[100];
-		String csvFile = "/home/jarvis/workspace/my_PPL/src/boys.csv/";
+		String csvFile = "ppl-assignment-jarvis004/boys.csv/";
 		String line = "";
 		String csvSplit = ",";
 		BufferedReader buff = null;
