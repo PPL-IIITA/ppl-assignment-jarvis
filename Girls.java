@@ -1,7 +1,19 @@
 public class Girls {
 	String name;
-	int maintenance;
+	int attar;
+	int expense;
 	int intelligence;
-	int budget;
+	String boyf;
 	String status;
-};
+	
+
+	boolean is_eligible(int budget){
+	if (this.expense <= budget) {
+			return true;
+		}
+	else {
+			return false;
+		}
+	}
+	
+}
