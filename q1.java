@@ -8,7 +8,7 @@ public class q1{
 		Boys b[] = new Boys[1000];
 		csv_gen csv_files = new csv_gen();
 		csv_files.csv();  
-		String csvFile = "/boys.csv";
+		String csvFile = "boys.csv";
 		String line = "";
 		String csvSplit = ",";
 		BufferedReader buff = null;
@@ -36,7 +36,7 @@ public class q1{
 		}
 		
 		Girls g[] = new Girls[1000];
-		csvFile = "/girls.csv";
+		csvFile = "girls.csv";
 		line = "";
 		csvSplit = ",";
 		buff = null;
