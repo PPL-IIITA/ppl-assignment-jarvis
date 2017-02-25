@@ -84,7 +84,6 @@ public class q1{
 					if(b[k].status.equals("Is_Committed")){
 					s[cnt] = "Boy: "+ b[k].name +" is committed with "+"Girl: "+ b[k].girlf  ;
 					}
-					
 					cnt++;
 									
 				}
