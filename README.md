@@ -8,6 +8,6 @@ ppl-assignment-The-Master-Coder created by GitHub Classroom <br />
 
 ##Command for Terminal in Linux:
 Note: All the codes submitted are tested on  only openjdk version "1.8.0_121"
->javac q1.java    (in folder q1, for Question 1)<br />
+>bash q1.sh        (in folder q1, for Question 1)<br />
 
 
