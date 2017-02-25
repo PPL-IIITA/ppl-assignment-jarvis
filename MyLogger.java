@@ -6,7 +6,7 @@ public class MyLogger{
 static void logger(String[] s, int cnt){  
 	    try {  
     	Logger logger = Logger.getLogger("My log"); 
-    	FileHandler fh = new FileHandler("/home/jarvis/workspace/java_ppl/log.log",true);          
+    	FileHandler fh = new FileHandler("ppl-assignment-jarvis004/log.txt",true);          
         logger.addHandler(fh);
         SimpleFormatter formatter = new SimpleFormatter();  
         fh.setFormatter(formatter); 
