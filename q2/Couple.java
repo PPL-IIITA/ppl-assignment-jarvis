@@ -56,6 +56,7 @@ public class Couple {
 					for(i=0;i<n;i++){
 						if(sum <this.girl.expense ){
 							output = df + "-" + this.boy.name + " --------------> "+ this.girl.name +" "+gf[i].gift_name +"\n" ;
+							System.out.println(output);
 							try(BufferedWriter buffer=new BufferedWriter(new FileWriter(out,true))){
 		                    	buffer.write(output);
 		                    	
@@ -86,6 +87,7 @@ public class Couple {
 							if(sum<this.boy.budget){
 								
 								output = df + "-" + this.boy.name + " --------------> "+ this.girl.name+" "+gf[l].gift_name  +"\n" ;
+								System.out.println(output);
 								try(BufferedWriter buffer=new BufferedWriter(new FileWriter(out,true))){
 			                    	buffer.write(output);
 			                    	
@@ -112,6 +114,7 @@ public class Couple {
 							if(sum <this.girl.expense ){
 								
 								output =df + "-" + this.boy.name + " --------------> "+ this.girl.name+" "+gf[i].gift_name       +"\n" ;
+								System.out.println(output);
 								try(BufferedWriter buffer=new BufferedWriter(new FileWriter(out,true))){
 			                    	buffer.write(output);
 			                    	
