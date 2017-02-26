@@ -14,8 +14,8 @@ Note: All the codes submitted are tested on  only openjdk version "1.8.0_121"
 ##Class Diagrams:
 >Class Diagram can be found in respactive folder
 
-##Documentation:
->Documentation of each question is done separately and can be found in the respective folder of the question
+##Documentation :
+>Documentation of each question can be found in the respective folder of the question
 
 ##Tools used:
 >Eclipse for code <br />
