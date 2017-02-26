@@ -17,6 +17,6 @@ Note: All the codes submitted are tested on  only openjdk version "1.8.0_121"
 ##Tools used:
 >Eclipse for code <br />
 >Doxygen for Documentation <br />
->Class diagrams generated automaticall using eclipse
+>Class diagrams generated automaticall using Eclipse
 
 
