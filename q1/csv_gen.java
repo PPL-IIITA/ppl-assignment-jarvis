@@ -3,8 +3,8 @@ import java.util.*;
 public class csv_gen {
 	    void csv(){
 		try{
-			FileWriter boy_file = new FileWriter("boys.csv");
-			FileWriter girl_file = new FileWriter("girls.csv");
+			FileWriter boy_file = new FileWriter("boy.csv");
+			FileWriter girl_file = new FileWriter("girl.csv");
 			int j;
 			Random boy_rand = new Random();
 			Random girl_rand = new Random();
