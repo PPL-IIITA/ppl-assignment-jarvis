@@ -148,7 +148,8 @@ public class q2{
 					g[d].status = "Is_committed";
 					count++;
 					String df= new SimpleDateFormat("dd/MM/yy HH:mm:ss").format(new Time(System.currentTimeMillis()));
-                    String output =  df+" "+b[c].name + " is Committed with " +g[d].name + "\n" ;
+                    String output =  df+" "+"Boy : "+b[c].name + " is Committed with " +"Girl : "+g[d].name + "\n" ;
+                    System.out.println(output);
                     try(BufferedWriter buffer=new BufferedWriter(new FileWriter(out,true))){
                     	buffer.write(output);
                     	
@@ -182,8 +183,9 @@ public class q2{
 		}
 		Random happi = new Random();
 		int h = happi.nextInt(count) +1;
+		System.out.println("Best " +h+ " happiest Couples :"+"\n");
 		for(x=0;x<h;x++){
-		System.out.println("happiness : "+ gbcouple[x].boy.name+" and "+gbcouple[x].girl.name+" happiness is "+gbcouple[x].happiness +"\n");
+		System.out.println(gbcouple[x].boy.name+" and "+gbcouple[x].girl.name+"\n");
 		
 		String happy = "happiness : "+ gbcouple[x].boy.name+" and "+gbcouple[x].girl.name+" & happiness is "+gbcouple[x].happiness +"\n";
 		try(BufferedWriter buffer=new BufferedWriter(new FileWriter(out,true))){
@@ -199,9 +201,10 @@ public class q2{
 				}
 			}
 		}
+		System.out.println("Best " +h+ " Compaitable Couples :"+"\n");
 		
 		for(x=0;x<h;x++){
-			System.out.println(" compaitable : "+ gbcouple[x].boy.name+" and "+gbcouple[x].girl.name+" compatibality is "+gbcouple[x].affinity +"\n");
+			System.out.println(gbcouple[x].boy.name+" and "+gbcouple[x].girl.name+"\n");
 		
 		String Comp = "compaitable : "+ gbcouple[x].boy.name+" and "+gbcouple[x].girl.name+" & compatibality is "+gbcouple[x].affinity +"\n";
 		try(BufferedWriter buffer=new BufferedWriter(new FileWriter(out,true))){
