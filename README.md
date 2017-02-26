@@ -1,5 +1,5 @@
 # ppl-assignment-jarvis 
-ppl-assignment-The-Master-Coder created by GitHub Classroom <br />
+ppl-assignment-jarvis created by GitHub Classroom <br />
 #Mritunjay Chaudhary (**BIM2015004**)
 
 ##Build System:
