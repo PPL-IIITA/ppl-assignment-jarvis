@@ -8,13 +8,13 @@ public class q1{
 		Boys b[] = new Boys[1000];
 		csv_gen csv_files = new csv_gen();
 		csv_files.csv();  
-		String csvFile = "boys.csv";
+		String csvFile = "boy.csv";
 		String line = "";
 		String csvSplit = ",";
 		BufferedReader buff = null;
 		try{
-			buff = new BufferedReader(new FileReader(csvFile));
-			while((line = buff.readLine() )!= null){
+			buffer = new BufferedReader(new FileReader(csvFile));
+			while((line = buffer.readLine() )!= null){
 				String[] boys_table = line.split(csvSplit);
 			//	System.out.println(boy[0] + boy[1] + boy[2] + boy [3]);
 				b[i] = new Boys();
@@ -36,15 +36,15 @@ public class q1{
 		}
 		
 		Girls g[] = new Girls[1000];
-		csvFile = "girls.csv";
+		csvFile = "girl.csv";
 		line = "";
 		csvSplit = ",";
 		buff = null;
 		
 		
 		try{
-			buff = new BufferedReader(new FileReader(csvFile));
-			while((line = buff.readLine() )!= null){
+			buffer= new BufferedReader(new FileReader(csvFile));
+			while((line = buffer.readLine() )!= null){
 				String[] girls_table = line.split(csvSplit);
 			//	System.out.println(boy[0] + boy[1] + boy[2] + boy [3]);
 				g[j] = new Girls();
