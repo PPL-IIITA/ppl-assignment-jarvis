@@ -8,13 +8,13 @@ public class q1{
 		Boys b[] = new Boys[1000];
 		csv_gen csv_files = new csv_gen();
 		csv_files.csv();  
-		String csvFile = "boy.csv";
+		String csvFile = "boys.csv";
 		String line = "";
 		String csvSplit = ",";
 		BufferedReader buff = null;
 		try{
-			buffer = new BufferedReader(new FileReader(csvFile));
-			while((line = buffer.readLine() )!= null){
+			buff = new BufferedReader(new FileReader(csvFile));
+			while((line = buff.readLine() )!= null){
 				String[] boys_table = line.split(csvSplit);
 			//	System.out.println(boy[0] + boy[1] + boy[2] + boy [3]);
 				b[i] = new Boys();
@@ -36,15 +36,15 @@ public class q1{
 		}
 		
 		Girls g[] = new Girls[1000];
-		csvFile = "girl.csv";
+		csvFile = "girls.csv";
 		line = "";
 		csvSplit = ",";
 		buff = null;
 		
 		
 		try{
-			buffer= new BufferedReader(new FileReader(csvFile));
-			while((line = buffer.readLine() )!= null){
+			buff = new BufferedReader(new FileReader(csvFile));
+			while((line = buff.readLine() )!= null){
 				String[] girls_table = line.split(csvSplit);
 			//	System.out.println(boy[0] + boy[1] + boy[2] + boy [3]);
 				g[j] = new Girls();
@@ -84,6 +84,7 @@ public class q1{
 					if(b[k].status.equals("Is_Committed")){
 					s[cnt] = "Boy: "+ b[k].name +" is committed with "+"Girl: "+ b[k].girlf  ;
 					}
+					
 					cnt++;
 									
 				}
