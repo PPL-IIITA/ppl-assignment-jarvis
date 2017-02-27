@@ -24,7 +24,6 @@ Note: All the codes submitted are tested on  only openjdk version "1.8.0_121"
 ```
 5- bash runq2.sh
 ```
-```
 
 ##Class Diagrams:
 >Class Diagram can be found in respactive folder of question
