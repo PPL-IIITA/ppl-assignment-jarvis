@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.*;
+/*! csv_gen class*/
 public class csv_gen {
+/*! csv function to generate csv files this function creates csv files and writes into it*/
 	    void csv(){
 		try{
 			FileWriter boy_file = new FileWriter("boy.csv");
@@ -16,11 +18,9 @@ public class csv_gen {
 			}
 			boy_file.close();
 			girl_file.close();
-		}catch(IOException e){		
+			}catch(IOException e){		
 		
-		}
+			}
 	
-		
-}
-	    
+		}
 }
