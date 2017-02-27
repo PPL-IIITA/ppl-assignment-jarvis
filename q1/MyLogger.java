@@ -2,7 +2,9 @@ import java.io.*;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
+/*! MyLogger class*/
 public class MyLogger{
+/*!logger function to log in to text file */
 static void logger(String[] s, int cnt){  
 	    try {  
     	Logger logger = Logger.getLogger("My log"); 
@@ -14,16 +16,12 @@ static void logger(String[] s, int cnt){
         int k=0;
         for(k=0;k<cnt;k++){
         	logger.info(s[k]);
-        }
-        
-
-    } catch (SecurityException e) {  
+        	}
+         } 
+	catch (SecurityException e) {  
+       	e.printStackTrace();  
+    	}catch (IOException e) {  
         e.printStackTrace();  
-    } catch (IOException e) {  
-        e.printStackTrace();  
-    }  
-
-    
-
-}
+    	}  
+    }
 }
