@@ -92,7 +92,7 @@ public class q1{
 				
 			}
 		}
-		
+		/*! calling logger function in MyLogger class to log the data stored in Array s */
 		MyLogger.logger(s,cnt);	
 	}
-	}
+}
