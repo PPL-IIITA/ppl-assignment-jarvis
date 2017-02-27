@@ -1,6 +1,7 @@
 import java.io.*;
+/*!class q1  */
 public class q1{
-	
+/*! main class */
 	public static void main(String args[]){
 		int i,j;
 		i=0;
