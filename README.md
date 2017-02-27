@@ -10,19 +10,21 @@ ppl-assignment-jarvis created by GitHub Classroom <br />
 Note: All the codes submitted are tested on  only openjdk version "1.8.0_121"
 
 ```
-1- git clone https://github.com/PPL-IIITA/ppl-assignment-jarvis
+git clone https://github.com/PPL-IIITA/ppl-assignment-jarvis
+```
+###Run Question 1
+```
+cd ppl-assignment-jarvis/q1 
 ```
 ```
-2- cd ppl-assignment-jarvis/q1 (For Q1)
+bash runq1.sh
+```
+###Run Question 2
+```
+cd ppl-assignment-jarvis/q2
 ```
 ```
-3- bash runq1.sh
-```
-```
-4- cd ppl-assignment-jarvis/q2 (For Q2)
-```
-```
-5- bash runq2.sh
+bash runq2.sh
 ```
 
 ##Class Diagrams:
