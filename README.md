@@ -8,8 +8,23 @@ ppl-assignment-jarvis created by GitHub Classroom <br />
 
 ##Command for Terminal in Linux:
 Note: All the codes submitted are tested on  only openjdk version "1.8.0_121"
->bash runq1.sh        (in folder q1, for Question 1)<br />
->bash runq2.sh        (in folder q2 for Question 2)<br />
+
+```
+1- git clone https://github.com/PPL-IIITA/ppl-assignment-jarvis
+```
+```
+2- cd ppl-assignment-jarvis/q1 (For Q1)
+```
+```
+3- bash runq1.sh
+```
+```
+4- cd ppl-assignment-jarvis/q2 (For Q2)
+```
+```
+5- bash runq2.sh
+```
+```
 
 ##Class Diagrams:
 >Class Diagram can be found in respactive folder of question
