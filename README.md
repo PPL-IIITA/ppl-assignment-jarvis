@@ -12,14 +12,14 @@ Note: All the codes submitted are tested on  only openjdk version "1.8.0_121"
 ```
 git clone https://github.com/PPL-IIITA/ppl-assignment-jarvis
 ```
-###Run Question 1
+###Run Question 1 :
 ```
 cd ppl-assignment-jarvis/q1 
 ```
 ```
 bash runq1.sh
 ```
-###Run Question 2
+###Run Question 2 :
 ```
 cd ppl-assignment-jarvis/q2
 ```
