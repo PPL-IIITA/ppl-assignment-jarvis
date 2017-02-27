@@ -16,6 +16,5 @@ public class Boys {
 		}else{
 			return false;
 		}
-			
-		}
 	}
+}
