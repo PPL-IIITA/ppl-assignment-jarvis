@@ -1,4 +1,4 @@
-# ppl-assignment-jarvis 
+#ppl-assignment-jarvis 
 ppl-assignment-jarvis created by GitHub Classroom <br />
 #Mritunjay Chaudhary (**BIM2015004**)
 
@@ -18,8 +18,8 @@ Note: All the codes submitted are tested on  only openjdk version "1.8.0_121"
 >Documentation of each question can be found in the respective folder of the question
 
 ##Tools used:
->Eclipse for code <br />
+>Eclipse Version: 3.8.1 for code <br />
 >Doxygen for Documentation <br />
->Class diagrams generated automaticall using Eclipse
+>Class diagrams generated automatically using Eclipse
 
 
