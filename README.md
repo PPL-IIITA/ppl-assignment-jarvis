@@ -31,7 +31,8 @@ bash runq2.sh
 >Class Diagram can be found in respactive folder of question
 
 ##Documentation :
->Documentation of each question can be found in the respective folder of the question
+* <a href "https://goo.gl/KPhVmf" target="_blank">Q1 Documentation</a>
+* <a href "https://goo.gl/S6QL3P" target="_blank">Q2 Documentation</a>
 
 ##Tools used:
 >Eclipse Version: 3.8.1 for code <br />
