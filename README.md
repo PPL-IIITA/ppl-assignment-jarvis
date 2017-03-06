@@ -31,8 +31,8 @@ bash runq2.sh
 >Class Diagram can be found in respactive folder of question
 
 ##Documentation :
-* <a href "https://github.com/PPL-IIITA/ppl-assignment-jarvis/blob/master/Documentation/Q1_Documentation.pdf" target="_blank">Q1 Documentation</a>
-* <a href "https://github.com/PPL-IIITA/ppl-assignment-jarvis/blob/master/Documentation/Q2_Documentation.pdf" target="_blank">Q2 Documentation</a>
+* [Q1 Documentation](https://github.com/PPL-IIITA/ppl-assignment-jarvis/blob/master/Documentation/Q1_Documentation.pdf) 
+* [Q2 Documentation](https://github.com/PPL-IIITA/ppl-assignment-jarvis/blob/master/Documentation/Q2_Documentation.pdf) 
 
 ##Tools used:
 >Eclipse Version: 3.8.1 for code <br />
