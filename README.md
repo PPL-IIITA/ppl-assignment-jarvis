@@ -26,6 +26,27 @@ cd ppl-assignment-jarvis/q2
 ```
 bash runq2.sh
 ```
+###Run Question 3 :
+```
+cd ppl-assignment-jarvis/q3
+```
+```
+bash runq3.sh
+```
+###Run Question 4 :
+```
+cd ppl-assignment-jarvis/q4
+```
+```
+bash runq4.sh
+```
+###Run Question 5 :
+```
+cd ppl-assignment-jarvis/q5
+```
+```
+bash runq5.sh
+```
 
 ##Class Diagrams:
 >Class Diagram can be found in respactive folder of question
