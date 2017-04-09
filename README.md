@@ -7,7 +7,7 @@ ppl-assignment-jarvis created by GitHub Classroom <br />
 >OS type 32bit
 
 ##Command for Terminal in Linux:
-Note: All the codes submitted are tested on  only openjdk version "1.8.0_121"
+Note: All the codes submitted are tested on  only openjdk version "1.7"
 
 ```
 git clone https://github.com/PPL-IIITA/ppl-assignment-jarvis
@@ -47,6 +47,12 @@ cd ppl-assignment-jarvis/q5
 ```
 bash runq5.sh
 ```
+###Run Question 6 :
+```
+cd ppl-assignment-jarvis/q6
+```
+```
+bash runq6.sh
 
 ##Class Diagrams:
 >Class Diagram can be found in respactive folder of question
@@ -54,6 +60,10 @@ bash runq5.sh
 ##Documentation :
 * [Q1 Documentation](https://github.com/PPL-IIITA/ppl-assignment-jarvis/blob/master/Documentation/Q1_Documentation.pdf) 
 * [Q2 Documentation](https://github.com/PPL-IIITA/ppl-assignment-jarvis/blob/master/Documentation/Q2_Documentation.pdf) 
+* [Q3 Documentation](https://github.com/PPL-IIITA/ppl-assignment-jarvis/blob/master/Documentation/Q3_Documentation.pdf) 
+* [Q4 Documentation](https://github.com/PPL-IIITA/ppl-assignment-jarvis/blob/master/Documentation/Q4_Documentation.pdf) 
+* [Q5 Documentation](https://github.com/PPL-IIITA/ppl-assignment-jarvis/blob/master/Documentation/Q5_Documentation.pdf) 
+* [Q6 Documentation](https://github.com/PPL-IIITA/ppl-assignment-jarvis/blob/master/Documentation/Q6_Documentation.pdf) 
 
 ##Tools used:
 >Eclipse Version: 3.8.1 for code <br />
