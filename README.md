@@ -53,11 +53,12 @@ cd ppl-assignment-jarvis/q6
 ```
 ```
 bash runq6.sh
-
-##Class Diagrams:
+```
+###Class Diagrams:
 >Class Diagram can be found in respactive folder of question
 
 ##Documentation :
+
 * [Q1 Documentation](https://github.com/PPL-IIITA/ppl-assignment-jarvis/blob/master/Documentation/Q1_Documentation.pdf) 
 * [Q2 Documentation](https://github.com/PPL-IIITA/ppl-assignment-jarvis/blob/master/Documentation/Q2_Documentation.pdf) 
 * [Q3 Documentation](https://github.com/PPL-IIITA/ppl-assignment-jarvis/blob/master/Documentation/Q3_Documentation.pdf) 
