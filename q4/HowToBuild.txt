@@ -1,0 +1,9 @@
+To Build run 
+>> javac q4.java
+
+
+To execute, make sure you have to build the file first.
+then run command
+>> java q4
+
+As the CSV is generated Randomly , So run multiple times to get a better results.
