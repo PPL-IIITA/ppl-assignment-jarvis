@@ -17,42 +17,48 @@ git clone https://github.com/PPL-IIITA/ppl-assignment-jarvis
 cd ppl-assignment-jarvis/q1 
 ```
 ```
-bash runq1.sh
+javac *.java
+java q1
 ```
 ###Run Question 2 :
 ```
 cd ppl-assignment-jarvis/q2
 ```
 ```
-bash runq2.sh
+javac *.java
+java q2
 ```
 ###Run Question 3 :
 ```
 cd ppl-assignment-jarvis/q3
 ```
 ```
-bash runq3.sh
+javac *.java
+java q3
 ```
 ###Run Question 4 :
 ```
 cd ppl-assignment-jarvis/q4
 ```
 ```
-bash runq4.sh
+javac *.java
+java q4
 ```
 ###Run Question 5 :
 ```
 cd ppl-assignment-jarvis/q5
 ```
 ```
-bash runq5.sh
+javac *.java
+java q5
 ```
 ###Run Question 6 :
 ```
 cd ppl-assignment-jarvis/q6
 ```
 ```
-bash runq6.sh
+javac *.java
+java q6
 ```
 ###Class Diagrams:
 >Class Diagram can be found in respactive folder of question
