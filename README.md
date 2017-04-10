@@ -44,7 +44,7 @@ cd ppl-assignment-jarvis/q4
 javac *.java
 java q4
 ```
-###Run Question 5 :
+### Run Question 5 :
 ```
 cd ppl-assignment-jarvis/q5
 ```
@@ -52,7 +52,7 @@ cd ppl-assignment-jarvis/q5
 javac *.java
 java q5
 ```
-###Run Question 6 :
+### Run Question 6 :
 ```
 cd ppl-assignment-jarvis/q6
 ```
